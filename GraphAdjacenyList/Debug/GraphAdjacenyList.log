@@ -1,0 +1,17 @@
+﻿  AdjacenyList.cpp
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(79,4): error C2059: syntax error: ')'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(80,18): error C2061: syntax error: identifier 'data'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(80,74): error C2059: syntax error: ')'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(81,3): error C2143: syntax error: missing ')' before '{'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(81,3): error C2838: 'remove_if': illegal qualified name in member declaration
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(82,4): error C2059: syntax error: 'return'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(82,27): error C2238: unexpected token(s) preceding ';'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(83,4): error C2059: syntax error: ')'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(76,1): error C3260: ')': skipping unexpected token(s) before lambda body
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(79,4): error C2143: syntax error: missing ')' before '}'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(79,4): error C2143: syntax error: missing ';' before '}'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(76,8): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(84,2): error C2059: syntax error: '}'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(84,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(86,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\San\Desktop\assignment\Algorithms\GraphAdjacenyList\AdjacenyList.cpp(86,1): error C2059: syntax error: '}'

@@ -1,0 +1,9 @@
+﻿  LinearTimeSelection.cpp
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(14,2): error C3861: 'quick_sort': identifier not found
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(52,125): error C2146: syntax error: missing ')' before identifier 'last'
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(52,125): error C3646: 'last': unknown override specifier
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(52,129): error C2988: unrecognizable template declaration/definition
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(52,129): error C2059: syntax error: ','
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(52,1): error C2059: syntax error: ')'
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(53,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\San\Desktop\assignment\Algorithms\LinearTimerSelection\LinearTimeSelection.cpp(53,1): error C2447: '{': missing function header (old-style formal list?)

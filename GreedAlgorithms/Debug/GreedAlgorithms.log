@@ -1,0 +1,6 @@
+﻿  SJSF.cpp
+C:\Users\San\Desktop\assignment\Algorithms\GreedAlgorithms\SJSF.cpp(69,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\San\Desktop\assignment\Algorithms\GreedAlgorithms\SJSF.cpp(29,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\San\Desktop\assignment\Algorithms\GreedAlgorithms\SJSF.cpp(48): message : see reference to function template instantiation 'auto compute_waiting_time<int>(std::vector<int,std::allocator<int>> &)' being compiled
+C:\Users\San\Desktop\assignment\Algorithms\GreedAlgorithms\SJSF.cpp(72): message : see reference to function template instantiation 'void computeWaitingTimes<int>(std::vector<int,std::allocator<int>> &)' being compiled
+  GreedAlgorithms.vcxproj -> C:\Users\San\Desktop\assignment\Algorithms\GreedAlgorithms\Debug\GreedAlgorithms.exe

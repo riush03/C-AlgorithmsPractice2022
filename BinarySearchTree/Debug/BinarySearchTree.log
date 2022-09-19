@@ -1,0 +1,3 @@
+﻿  BinarySearchTree.cpp
+C:\Users\San\Desktop\assignment\Algorithms\BinarySearchTree\BinarySearchTree.cpp(50): warning C4715: 'bst::find_impl': not all control paths return a value
+  BinarySearchTree.vcxproj -> C:\Users\San\Desktop\assignment\Algorithms\BinarySearchTree\Debug\BinarySearchTree.exe

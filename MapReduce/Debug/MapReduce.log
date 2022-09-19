@@ -1,0 +1,32 @@
+﻿  mapreduce.cpp
+C:\Users\San\Desktop\assignment\Algorithms\MapReduce\mapreduce.cpp(18,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\San\Desktop\assignment\Algorithms\MapReduce\mapreduce.cpp(53,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\San\Desktop\assignment\Algorithms\MapReduce\mapreduce.cpp(63,7): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\algorithm(3372,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\San\Desktop\assignment\Algorithms\MapReduce\mapreduce.cpp(27): message : see reference to function template instantiation '_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>>,transform_test::<lambda_e60d3004dc7678630b1fbeec1424062c>>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Fn=transform_test::<lambda_e60d3004dc7678630b1fbeec1424062c>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(35,16): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(44): message : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=reduce_test::<lambda_11a950167bdea7dc56dc614075a1c566>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Fn=std::plus<void>
+          ]
+C:\Users\San\Desktop\assignment\Algorithms\MapReduce\mapreduce.cpp(63): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,reduce_test::<lambda_11a950167bdea7dc56dc614075a1c566>>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=reduce_test::<lambda_11a950167bdea7dc56dc614075a1c566>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(35,1): error C2893: Failed to specialize function template 'unknown-type std::plus<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstddef(159): message : see declaration of 'std::plus<void>::operator ()'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(35,1): message : With the following template arguments:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(35,1): message : '_Ty1=_Ty &'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\numeric(35,1): message : '_Ty2=int &'

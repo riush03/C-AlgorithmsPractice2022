@@ -1,0 +1,28 @@
+﻿  BinarySearchBenchmark.cpp
+C:\Users\San\Desktop\assignment\Algorithms\DivideAndConquer\BinarySearchBenchmark.cpp(31,46): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(1722,1): error C2679: binary '+=': no operator found which takes a right-hand operand of type '_Diff' (or there is no acceptable conversion)
+          with
+          [
+              _Diff=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(281,23): message : could be 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator +=(const int) noexcept'
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(1722,1): message : while trying to match the argument list '(_InIt, _Diff)'
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+          and
+          [
+              _Diff=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Users\San\Desktop\assignment\Algorithms\DivideAndConquer\BinarySearchBenchmark.cpp(38): message : see reference to function template instantiation 'void std::advance<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(_InIt &,_Diff)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Diff=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]

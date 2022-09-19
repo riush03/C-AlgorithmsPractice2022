@@ -1,0 +1,16 @@
+﻿  Playlist.cpp
+C:\Users\San\Desktop\assignment\Algorithms\SongPlayListProject\Playlist.cpp(174,1): error C2664: 'void music_play_list<int>::erase(const T &)': cannot convert argument 1 from 'T *' to 'const T &'
+          with
+          [
+              T=int
+          ]
+C:\Users\San\Desktop\assignment\Algorithms\SongPlayListProject\Playlist.cpp(174,1): message : Reason: cannot convert from 'T *' to 'const T'
+          with
+          [
+              T=int
+          ]
+C:\Users\San\Desktop\assignment\Algorithms\SongPlayListProject\Playlist.cpp(174,15): message : There is no context in which this conversion is possible
+C:\Users\San\Desktop\assignment\Algorithms\SongPlayListProject\Playlist.cpp(60,7): message : see declaration of 'music_play_list<int>::erase'
+C:\Users\San\Desktop\assignment\Algorithms\SongPlayListProject\Playlist.cpp(171): message : while compiling class template member function 'music_play_list<int>::~music_play_list(void)'
+C:\Users\San\Desktop\assignment\Algorithms\SongPlayListProject\Playlist.cpp(209): message : see reference to function template instantiation 'music_play_list<int>::~music_play_list(void)' being compiled
+C:\Users\San\Desktop\assignment\Algorithms\SongPlayListProject\Playlist.cpp(184): message : see reference to class template instantiation 'music_play_list<int>' being compiled

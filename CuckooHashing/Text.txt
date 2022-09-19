@@ -1,0 +1,14 @@
+load factor => indicates the average number of keys present per list in our hash table.
+
+load factor = ___________number of keys______  
+                        size of hashtable
+
+             when nu_of_keys == size_of_hash_tables then we get close to O(1)
+
+Methods used to prevent collisions
+1.Open adressing => Here we store all the elements inside the hashtable instead of cahining the element to the hashtable.
+2.Linear probing =>here we llok at the subsequent hash value for an empty cell and insert our element once we find the room for it.
+  cell at hash(x) is empty check wether cell at hash(x+1) is empty then hash(x+2),hash(x+3)....
+3.Quadratic probing => hash(x) if it occupied we move to hash(x+1^2), else hash(x+1^2)...
+
+4.Perfect Hashing - Cuckoo hashing => the most perfect hashing technique.
